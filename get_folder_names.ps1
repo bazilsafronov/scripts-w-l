@@ -1,0 +1,1 @@
+Get-ChildItem -Directory | Select-Object -ExpandProperty Name | Out-File папки.txt -Encoding UTF8
